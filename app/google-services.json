@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1016459712596",
+    "project_id": "weather-notification-app",
+    "storage_bucket": "weather-notification-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016459712596:android:5b2904c3a107afa76375c1",
+        "android_client_info": {
+          "package_name": "com.example.finalexamweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016459712596-qm8pcq1aeair3f57p4j44v3hcb80atrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalexamweatherapp",
+            "certificate_hash": "c1e4de8046e50ff35a2e7a889103a20aae4c56d0"
+          }
+        },
+        {
+          "client_id": "1016459712596-kc4oiu1e8knpt93su7tp5qvjjh3kb66o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9gDbpBEwnSzgvb6c3D3Q-UlJgfmbsmXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016459712596-kc4oiu1e8knpt93su7tp5qvjjh3kb66o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

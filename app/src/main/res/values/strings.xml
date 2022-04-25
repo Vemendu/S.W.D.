@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final Exam Weather App</string>
+    <string name="logo">Weather App</string>
+    <string name="hint_user_field">Enter Your Town</string>
+    <string name="main_btn">Search for Weather!</string>
+    <string name="no_user_input">Input Text</string>
+</resources>

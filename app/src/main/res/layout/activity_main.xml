@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/logo"
+        android:textAlignment="center"
+        android:textColor="@color/text_color"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-500dp"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:inputType="text"
+        android:textColorHint="@color/text_color_hint"
+        android:minHeight="48dp"
+        android:textColor="@color/teal_200"
+         />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_below="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="130sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/main_btn" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_below="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewStart"
+        android:layout_marginLeft="7sp"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewEnd"
+        android:layout_marginRight="7sp"
+        android:textColor="@color/text_color_hint"
+        android:layout_below="@id/main_btn"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info2"
+        android:layout_below="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info3"
+        android:layout_below="@+id/result_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info4"
+        android:layout_below="@+id/result_info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="7sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info5"
+        android:layout_below="@+id/result_info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info6"
+        android:layout_below="@+id/result_info4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="7sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info7"
+        android:layout_below="@+id/result_info5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info8"
+        android:layout_below="@+id/result_info6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="7sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/result_info9"
+        android:layout_below="@+id/result_info7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="7sp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/text_color_hint"
+        android:textSize="17sp" />
+
+
+
+</RelativeLayout>
