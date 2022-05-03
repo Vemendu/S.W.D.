@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     private EditText user_field;
     private Button main_btn;
+    private Button main_btn1;
     private TextView result_info;
     private TextView result_info1;
     private TextView result_info2;
@@ -74,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
         user_field = findViewById(R.id.user_field);
         main_btn = findViewById(R.id.main_btn);
+        main_btn1 = findViewById(R.id.main_btn1);
         result_info = findViewById(R.id.result_info);
         result_info1 = findViewById(R.id.result_info1);
         result_info2 = findViewById(R.id.result_info2);
@@ -105,6 +107,22 @@ public class MainActivity extends AppCompatActivity {
 
 
             }
+        });
+
+        main_btn1.setOnClickListener(view -> {
+            getLastLocation();
+
+
+                String city = (String) latitudeTextView.getText();
+                String key = "0dfa972e43cefaa1abf721d95542480d\n";
+                String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city +"&appid="+ key +"&units=metric";
+
+
+                new GetURLData().execute(url);
+
+
+
+
         });
 
 
@@ -164,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
         mFusedLocationClient.requestLocationUpdates(mLocationRequest, mLocationCallback, Looper.myLooper());
     }
 
-    private LocationCallback mLocationCallback = new LocationCallback() {
+    private final LocationCallback mLocationCallback = new LocationCallback() {
 
         @Override
         public void onLocationResult(LocationResult locationResult) {
